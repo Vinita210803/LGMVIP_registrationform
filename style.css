@@ -1,0 +1,100 @@
+header {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    background-color: #f2f2f2;
+    margin: 25px;
+    padding: 20px;
+    height: 450px;
+    width: 650px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="file"],
+input[type="radio"],
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="radio"]{
+    max-width: 5%;
+}
+
+input[type="submit"] {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#enrolled-student {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 450px;
+    width: 650px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.enrolled-heading {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+}
+
+.student-data {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.image-container {
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.image-container img {
+    margin-left: 15px;
+    max-width: 200px;
+    height: 200px;
+    display: block;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+

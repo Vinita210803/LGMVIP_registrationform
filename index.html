@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>STUDENT ENROLLMENT FORM</h1>
+    </header>
+    <main>
+        <div class="main">
+        <div class="studentform">
+        <form action="" id="userform">
+            <div class="name">
+                <input type="text" name="" id="name" placeholder="enter your name" required>
+            </div>
+            <div class="email">
+                <input type="email" name="email" id="email" placeholder="enter you email address" required>
+            </div>
+            <div class="website">
+                <input type="url" name="website" id="website" placeholder="enter link for your website" required>
+            </div>
+            <div class="imagelink">
+                <input type="file" name="image" id="image" required>
+            </div>
+            <div class="gender">
+                <input type="radio" name="gender" id="male" value="male" required>male
+                <input type="radio" name="gender" id="female" value="female">female
+            </div>
+            <div class="skills">
+                <input type="text" name="skills" id="skills" placeholder="enter your skills" required>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Enroll Student" onclick="getdata()">
+                <input type="reset" value="Cancel" onclick="resetform()">
+            </div>
+        </form>
+        </div>
+
+        <div id="enrolled-student">
+            <div class="enrolled-heading">
+                <h2>Enrolled Students</h2>
+            </div>
+            <div class="student-data" id="student-data">
+                <span id="span">Fill the form to enroll the student</span>
+            </div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>
